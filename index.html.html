@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisão de Tela</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .texto {
+            width: 50%;
+            background-color: #fcd9d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .conteudo-texto {
+            max-width: 400px;
+            text-align: left;
+        }
+
+        .texto h1 {
+            margin-bottom: 10px;
+        }
+
+        .imagem {
+            width: 50%;
+            background: url('https://via.placeholder.com/600') no-repeat center center;
+            background-size: cover;
+        }
+
+        #imagem_centralizada {
+            background-color: black
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="texto">
+            <div class="conteudo-texto">
+                <h1>Gustavo Henrique Bonfim</h1>
+                <h2>Sobre mim:</h2>
+                <p>Não gosto de trabalhar, fiz esse portifóligo para meu pai ficar feliz.</p>
+            </div>
+        </div>
+        <div class="imagem">
+
+            <div id="imagem_centralizada" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items:end">
+                <img style="width: 90%; height: 90%; object-fit: cover; border-radius: 300px 300px 0px 0px" src="Imagem do WhatsApp de 2025-02-08 à(s) 13.32.45_e439c5cd.jpg">
+
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+
+</html>
+
